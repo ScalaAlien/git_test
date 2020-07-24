@@ -19,7 +19,7 @@
 
 int main(void)
 {
-    int n[2] = {};
+    int n[2] = {0, 0};
     printf("1～10までの整数を2つ入力してください。");
     printf("1つ目の整数を入力してください＞");
     scanf("%d", &n[0]);
@@ -29,3 +29,5 @@ int main(void)
     printf("%d\n", n[0] * n[1]);
     return 0;
 }
+
+// Add Comment By Yuta.
